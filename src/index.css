@@ -1,10 +1,32 @@
 body {
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-image: url("goldBackground.jpg");
 }
 
 #root {
-  width: 354px;
+  width: 200px;
   margin: 0 auto;
-  margin-top: 200px;
+  font-size: 25pt;
+  color: gold;
+}
+
+.header {
+  margin: 0 auto;
+  width: 273pt;
+  font-size: 35pt;
+  color: white;
+}
+
+#clock {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 40px;
+  width: 368px;
+  height: 139px;
 }

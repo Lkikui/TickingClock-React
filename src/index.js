@@ -4,8 +4,9 @@ import './index.css';
 
 function updateTime() {
     var time = new Date().toLocaleTimeString();
-    const timeElement = ( 
-        React.createElement('h1', null, `The time is ${time}`)
+
+    const timeElement = (
+        React.createElement('p', null, `${time}`)
     );
     
     ReactDOM.render(timeElement, document.getElementById('root'));
