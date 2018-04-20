@@ -1,7 +1,11 @@
 body {
   padding: 0;
+  margin: 0 auto;
   font-family: "Lucida Console", Monaco, monospace;
   background-image: url("goldBackground.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
 }
 
 #root {
@@ -13,7 +17,7 @@ body {
 
 .header {
   margin: 0 auto;
-  width: 273pt;
+  width: 274pt;
   font-size: 35pt;
   color: white;
 }
