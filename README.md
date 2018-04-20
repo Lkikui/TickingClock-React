@@ -1,3 +1,7 @@
+<center><h1>Ticking Clock</h1></center>
+Features:
+- updates every second using setInterval() method
+
 ![alt text](src/ui_ss.png "Clock which updates every second")
 
 __________________________________
