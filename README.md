@@ -1,4 +1,4 @@
-Ticking Clock
+<h1>Ticking Clock</h1>
 
 - Built with React, JavaScript, HTML, CSS
 - Updates every second with setInterval method
